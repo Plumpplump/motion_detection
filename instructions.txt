@@ -1,0 +1,10 @@
+1. I am going to create a motion detection with my home computer camera
+2. I will use Python Flet Module for UI.
+3. At the beginning, it will have a start camera and start detection button  and also have a camera view box which is initially empty.
+4. Once you click on the start camera button, the camera box will show the real-time video.
+5. Once I click the start detection, the camera will check whether or not there is motion.
+6. It will check the current frame against a frame sometime ago. This time duraation can be configured for sensitivity.
+7. If the frames are different, then there is motion. It will sound an alert that motion was detected.
+8. After detection, the whole UI background should flash in red and white.
+9. Some documentation for you to learn from this  https://flet.dev/docs/controls/camera/
+10. Let me know your plan and python modules that you need to download and install.
