@@ -1,7 +1,7 @@
 [project]
 name = "motion-detector"
 version = "0.1.0"
-description = ""
+description = "Motion-triggered object recognition with a local ONNX model and optional AI backends."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
@@ -10,7 +10,10 @@ authors = [
 dependencies = [
     "flet>=0.86.5",
     "flet-camera>=0.86.5",
+    "httpx>=0.28.1",
+    "onnxruntime>=1.23.2",
     "opencv-python>=5.0.0.93",
+    "python-dotenv>=1.2.3",
 ]
 
 [dependency-groups]

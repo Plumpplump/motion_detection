@@ -12,6 +12,9 @@ async def test_ui_initial_state(flet_app: ftt.FletTestApp):
     assert (await tester.find_by_key("start_detection")).count == 1
     assert (await tester.find_by_key("camera_box")).count == 1
     assert (await tester.find_by_key("interval_slider")).count == 1
+    assert (await tester.find_by_key("object_select")).count == 1
+    assert (await tester.find_by_key("provider_select")).count == 1
+    assert (await tester.find_by_key("ai_status")).count == 1
     assert (await tester.find_by_text("Camera off")).count == 1
 
 
